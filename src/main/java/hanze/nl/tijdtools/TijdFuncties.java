@@ -20,8 +20,8 @@ public class TijdFuncties {
     	this.syncInterval=syncInterval;
     }
 
-    public String getSimulatorWeergaveTijd(){
-    	Tijd simulatorWeergaveTijd= simulatorTijd.copyTijd();
+    public String getSimulatorWeergaveTijd() {
+    	Tijd simulatorWeergaveTijd = simulatorTijd.copyTijd();
     	simulatorWeergaveTijd.increment(verschil);
     	return simulatorWeergaveTijd.toString();
     }
